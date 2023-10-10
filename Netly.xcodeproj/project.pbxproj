@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A926A6A2AD5154400B4D8CE /* NetlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A926A692AD5154400B4D8CE /* NetlyApp.swift */; };
+		8A926A6C2AD5154400B4D8CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A926A6B2AD5154400B4D8CE /* ContentView.swift */; };
+		8A926A6E2AD5154500B4D8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A926A6D2AD5154500B4D8CE /* Assets.xcassets */; };
+		8A926A712AD5154500B4D8CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A926A702AD5154500B4D8CE /* Preview Assets.xcassets */; };
+		8A926A782AD5156A00B4D8CE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A926A772AD5156A00B4D8CE /* README.md */; };
+		8A926A7A2AD5157300B4D8CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A926A792AD5157300B4D8CE /* GoogleService-Info.plist */; };
+		8A926A7D2AD51B1D00B4D8CE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8A926A7C2AD51B1D00B4D8CE /* .gitignore */; };
+		C1BAE137A8FE7BD804D230CD /* Pods_Netly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E034846C472DAB2DA06C47 /* Pods_Netly.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		417C4D4C70FEEE03235A5F38 /* Pods-Netly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netly.release.xcconfig"; path = "Target Support Files/Pods-Netly/Pods-Netly.release.xcconfig"; sourceTree = "<group>"; };
+		45E034846C472DAB2DA06C47 /* Pods_Netly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		867048ED609189C98358C9AB /* Pods-Netly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netly.debug.xcconfig"; path = "Target Support Files/Pods-Netly/Pods-Netly.debug.xcconfig"; sourceTree = "<group>"; };
+		8A926A662AD5154400B4D8CE /* Netly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A926A692AD5154400B4D8CE /* NetlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetlyApp.swift; sourceTree = "<group>"; };
+		8A926A6B2AD5154400B4D8CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A926A6D2AD5154500B4D8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A926A702AD5154500B4D8CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A926A772AD5156A00B4D8CE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../Desktop/Netly/README.md; sourceTree = "<group>"; };
+		8A926A792AD5157300B4D8CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/Netly/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8A926A7B2AD515E000B4D8CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8A926A7C2AD51B1D00B4D8CE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A926A632AD5154400B4D8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BAE137A8FE7BD804D230CD /* Pods_Netly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415E21BEC6C5935F882CF4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E034846C472DAB2DA06C47 /* Pods_Netly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A926A5D2AD5154400B4D8CE = {
+			isa = PBXGroup;
+			children = (
+				8A926A7C2AD51B1D00B4D8CE /* .gitignore */,
+				8A926A772AD5156A00B4D8CE /* README.md */,
+				8A926A792AD5157300B4D8CE /* GoogleService-Info.plist */,
+				8A926A682AD5154400B4D8CE /* Netly */,
+				8A926A672AD5154400B4D8CE /* Products */,
+				8DFDD07E67B7C07A8E932410 /* Pods */,
+				415E21BEC6C5935F882CF4A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A926A672AD5154400B4D8CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A926A662AD5154400B4D8CE /* Netly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A926A682AD5154400B4D8CE /* Netly */ = {
+			isa = PBXGroup;
+			children = (
+				8A926A7B2AD515E000B4D8CE /* GoogleService-Info.plist */,
+				8A926A692AD5154400B4D8CE /* NetlyApp.swift */,
+				8A926A6B2AD5154400B4D8CE /* ContentView.swift */,
+				8A926A6D2AD5154500B4D8CE /* Assets.xcassets */,
+				8A926A6F2AD5154500B4D8CE /* Preview Content */,
+			);
+			path = Netly;
+			sourceTree = "<group>";
+		};
+		8A926A6F2AD5154500B4D8CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A926A702AD5154500B4D8CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DFDD07E67B7C07A8E932410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				867048ED609189C98358C9AB /* Pods-Netly.debug.xcconfig */,
+				417C4D4C70FEEE03235A5F38 /* Pods-Netly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A926A652AD5154400B4D8CE /* Netly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A926A742AD5154500B4D8CE /* Build configuration list for PBXNativeTarget "Netly" */;
+			buildPhases = (
+				668937902E0CA08A67E31353 /* [CP] Check Pods Manifest.lock */,
+				8A926A622AD5154400B4D8CE /* Sources */,
+				8A926A632AD5154400B4D8CE /* Frameworks */,
+				8A926A642AD5154400B4D8CE /* Resources */,
+				4D18B9D719CD0EFA088C4BF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Netly;
+			productName = Netly;
+			productReference = 8A926A662AD5154400B4D8CE /* Netly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A926A5E2AD5154400B4D8CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8A926A652AD5154400B4D8CE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8A926A612AD5154400B4D8CE /* Build configuration list for PBXProject "Netly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A926A5D2AD5154400B4D8CE;
+			productRefGroup = 8A926A672AD5154400B4D8CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A926A652AD5154400B4D8CE /* Netly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A926A642AD5154400B4D8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A926A7D2AD51B1D00B4D8CE /* .gitignore in Resources */,
+				8A926A782AD5156A00B4D8CE /* README.md in Resources */,
+				8A926A7A2AD5157300B4D8CE /* GoogleService-Info.plist in Resources */,
+				8A926A712AD5154500B4D8CE /* Preview Assets.xcassets in Resources */,
+				8A926A6E2AD5154500B4D8CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D18B9D719CD0EFA088C4BF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Netly/Pods-Netly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Netly/Pods-Netly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Netly/Pods-Netly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668937902E0CA08A67E31353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Netly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A926A622AD5154400B4D8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A926A6C2AD5154400B4D8CE /* ContentView.swift in Sources */,
+				8A926A6A2AD5154400B4D8CE /* NetlyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A926A722AD5154500B4D8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A926A732AD5154500B4D8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A926A752AD5154500B4D8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867048ED609189C98358C9AB /* Pods-Netly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Netly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Netly.Netly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A926A762AD5154500B4D8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417C4D4C70FEEE03235A5F38 /* Pods-Netly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Netly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Netly.Netly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A926A612AD5154400B4D8CE /* Build configuration list for PBXProject "Netly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A926A722AD5154500B4D8CE /* Debug */,
+				8A926A732AD5154500B4D8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A926A742AD5154500B4D8CE /* Build configuration list for PBXNativeTarget "Netly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A926A752AD5154500B4D8CE /* Debug */,
+				8A926A762AD5154500B4D8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A926A5E2AD5154400B4D8CE /* Project object */;
+}
